@@ -1,0 +1,10 @@
+.selected-flag {
+    border-radius: 0;
+}
+
+.react-tel-input .form-control {
+    width: 342.5px;
+    height: 44.1px;
+    border-radius: 0;
+    font-weight: bold;
+}

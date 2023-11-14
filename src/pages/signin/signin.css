@@ -1,0 +1,153 @@
+.auth-content {
+    width: 80rem;
+    height: auto;
+    margin: auto;
+}
+
+.auth {
+    border: 1px solid #c5c5c5;
+    display: flex;
+    justify-content: center;
+    padding: 1.6rem 3.2rem 3.2rem;
+}
+
+
+.auth-main {
+    width: 100%;
+}
+
+.auth-main h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: 1.17em;
+}
+
+.auth-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 4.8rem;
+}
+
+.auth-provider {
+    width: 51rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.label-input {
+    padding: 1rem 1.2rem;
+    color: #696868;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.input-form {
+    width: 100%;
+    padding: 10px 1.6rem !important;
+    border: 1px solid #c5c5c5 !important;
+    font-size: 1.5rem !important;
+    border-radius: 0;
+}
+
+.auth-action {
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth-action a {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.auth-button {
+    font-size: 1.6rem;
+}
+
+.auth-divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 4.8rem;
+}
+
+.auth-divider h6 {
+    background: #f9f9f9;
+    padding: 1.2rem;
+    z-index: 1;
+    font-size: 0.67em;
+}
+
+.auth-divider:before {
+    top: 25%;
+}
+
+.auth-divider:after,
+.auth-divider:before {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    background: #e1e1e1;
+}
+
+
+.auth-provider {
+    width: 51rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth-provider-button {
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+    padding: 1.2rem;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.provider-icon {
+    display: inline-block;
+    margin-right: 1.4rem;
+}
+
+.provider-google {
+    background: #fff;
+    color: #3a3a3a;
+    border: 1px solid #c5c5c5;
+}
+
+.auth-no-account {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    margin: auto;
+    background: #f2f2f2;
+    border: 1px solid #c5c5c5;
+    border-top: none;
+}
+
+.auth-info {
+    margin-right: 3.2rem;
+    color: #4a4a4a;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.button-border-gray {
+    border: 1px solid #e1e1e1;
+    color: #4a4a4a;
+    border-radius: 0;
+    background-color: #f2f2f2;
+    font-weight: bold;
+}

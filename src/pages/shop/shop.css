@@ -1,0 +1,146 @@
+.product-wrapper {
+    flex-grow: 1;
+    position: relative;
+}
+
+.product-list {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-gap: 1.2rem;
+    justify-content: center;
+}
+
+.product-btn {
+    display: flex;
+    justify-content: center;
+    padding: 3.2rem;
+}
+
+.filter {
+    position: relative;
+}
+
+.filters-toggle-sub {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 1.6rem;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filters-field {
+    width: 100%;
+    margin-bottom: 1.6rem;
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.filters-field:first-child,
+.filters-field:nth-child(2) {
+    flex-basis: 50%;
+}
+
+.filters-brand {
+    width: 100%;
+}
+
+select {
+    font-size: 1.2rem;
+    color: #4a4a4a;
+    padding: 7px 1.6rem;
+    background: transparent;
+    font-weight: 700;
+    border: 1px solid #e1e1e1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #e1e1e1 0), linear-gradient(135deg, #e1e1e1 50%, transparent 0), linear-gradient(90deg, #e1e1e1, #e1e1e1);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - 3.2em) 0.2em;
+    background-size: 5px 5px, 5px 5px, 1px 1.8em;
+    background-repeat: no-repeat;
+}
+
+option {
+    font-weight: 700;
+}
+
+.d-block {
+    display: block;
+    width: 100%;
+}
+
+.price-box {
+    height: 120px;
+    width: 100%;
+}
+
+.price-range-control {
+    height: 30px;
+    display: flex;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.price-range,
+.price-range-control {
+    width: 100%;
+    position: relative;
+}
+
+.price-range-input {
+    width: 50%;
+    border: none !important;
+    font-size: 4rem !important;
+    padding: 0 !important;
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 700;
+}
+
+.price-slider-box {
+
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.MuiSlider-rail {
+
+    height: 14px;
+    z-index: 1;
+    background-color: rgb(255, 165, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    left: 0%;
+    width: 100%;
+}
+
+.filters-action {
+    display: flex;
+    width: 100%;
+}
+
+.filters-button {
+    flex-grow: 1;
+}
+
+.button-border {
+    background: transparent;
+    border: 1px solid #101010;
+    color: #101010;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}

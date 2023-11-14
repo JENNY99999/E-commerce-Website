@@ -1,0 +1,44 @@
+.banner-detail p {
+    color: #4a4a4a;
+    line-height: 2.4rem;
+    margin: 1.6rem 0;
+}
+
+
+.shop-button {
+    font-size: 1.6rem;
+    color: #ffffff;
+
+}
+
+.shop-button svg {
+    font-size: 1.6rem;
+    color: #ffffff;
+
+}
+
+.display {
+    margin: 10rem 5rem 5rem;
+}
+
+.display-header {
+    justify-content: space-between;
+}
+
+.display-header h1 {
+    font-weight: 600;
+}
+
+.display-header a {
+    text-decoration: underline;
+    font-size: 1.8rem;
+
+}
+
+.display-list {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 2rem;
+}
